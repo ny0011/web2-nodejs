@@ -1,6 +1,7 @@
 # web2-nodejs
 
 ```
+[Node.js - 설치, 웹서버 만들기]
 node.js runtime을 설치해서 node.js를 구동 시킬 것임.
 javascript언어로 node.js app을 만들어보자!
 js파일을 실행시키려면
@@ -10,6 +11,11 @@ node.js는 웹서버 기능을 갖고 있어서 웹 페이지를 보여줄 수 �
 $ node main.js
 를 실행 시키면 쉘 자체가 웹 서버 역할이 되고
 localhost:3000 (3000은 listen값)에서 웹 페이지를 볼 수 있음
+
+
+[JavaScript - Template Literal]
+줄바꿈을 하고 싶을 때 ``로 문자열을 묶자
+변수는 + var + 로 묶는게 아니라 ${var} 로 표기
 
 ```
 
