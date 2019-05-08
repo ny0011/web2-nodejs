@@ -39,6 +39,23 @@ https://nodejs.org/dist/latest-v6.x/docs/api/fs.html#fs_fs_readfile_file_options
 [Node.js - 콘솔에서의 입력값]
 cmd창에서 node 파일을 실행할 때 입력 값은 args 변수에 저장된다
 
+[App - Not found 오류 구현]
+console.log(url.parse(_url, true)); 를 실행하면 웹페이지를 리로드했을 때 얻는 값을
+알 수 있음
+Url {
+  protocol: null,
+  slashes: null,
+  auth: null,
+  host: null,
+  port: null,
+  hostname: null,
+  hash: null,
+  search: '?id=JavaScript',
+  query: [Object: null prototype] { id: 'JavaScript' },
+  pathname: '/',
+  path: '/?id=JavaScript',
+  href: '/?id=JavaScript' }
+
 ```
 
 
