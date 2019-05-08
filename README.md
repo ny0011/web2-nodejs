@@ -56,6 +56,9 @@ Url {
   path: '/?id=JavaScript',
   href: '/?id=JavaScript' }
 
+[Node.js - 파일 목록 알아내기]
+  nodejs file directory - fs.readdir() , data는 배열로 출력됨.
+
 ```
 
 
