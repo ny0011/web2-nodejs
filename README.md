@@ -32,6 +32,10 @@ id=HTML&page=12 : query string(웹 서버에게 데이터를 전송할 수 있�
     if (queryData.name) {
         // user told us their name in the GET request, ex: http://host:8000/?name=Tom
 
+[Node.js - 파일 읽기]
+node.js의 파일 읽는 방법? node.js의 공식 docs를 이용
+https://nodejs.org/dist/latest-v6.x/docs/api/fs.html#fs_fs_readfile_file_options_callback
+
 
 ```
 
