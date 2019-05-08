@@ -36,6 +36,8 @@ id=HTML&page=12 : query string(웹 서버에게 데이터를 전송할 수 있�
 node.js의 파일 읽는 방법? node.js의 공식 docs를 이용
 https://nodejs.org/dist/latest-v6.x/docs/api/fs.html#fs_fs_readfile_file_options_callback
 
+[Node.js - 콘솔에서의 입력값]
+cmd창에서 node 파일을 실행할 때 입력 값은 args 변수에 저장된다
 
 ```
 
