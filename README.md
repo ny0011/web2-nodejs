@@ -59,6 +59,27 @@ Url {
 [Node.js - 파일 목록 알아내기]
   nodejs file directory - fs.readdir() , data는 배열로 출력됨.
 
+[Node.js - 패키지 매니저와 PM2]
+여러 sw들을 설치하고 관리하는 것을 패키지 매니저임.
+javascript는 npm이라는 패키지 매니저를 사용함.
+pm2는 서버가 실행되고 있는지 감시하는 툴.
+만약 비정상 종료됐다면 다시 시작해주고 파일이 변경되었으면 다시 서버 실행해주는 역할을 해줌.
+
+설치 명령어
+npm install pm2 -g
+
+실행 명령어
+pm2 start app.js
+
+실행되고 있는 프로그램 확인
+pm2 monit
+
+pm2 list
+pm2 stop (프로그램 이름)
+pm2 start 이름 --watch
+pm2 log
+
+
 ```
 
 
