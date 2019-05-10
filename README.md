@@ -79,6 +79,14 @@ pm2 stop (프로그램 이름)
 pm2 start 이름 --watch
 pm2 log
 
+[HTML - form]
+<input type="text" name="title"> : 텍스트 넣을 수 있는 칸
+<textarea name="text"></textarea> : 텍스트 여러 줄 넣을 수 있는 칸
+<input type="submit"> : 전송 버튼
+<form action="http://localhost:3000/process_create">
+: 전송하고자 하는 위치 지정. 전송할 내용들에 이름을 넣어줘야 함.
+그래야 submit 버튼 누를 때 내용들을 ?title=eee&text=fff 요렇게 쿼리 문으로 묶어서 보여줌.
+주소에 쿼리 문 안보이게 하려면 method="post" 로 설정
 
 ```
 
