@@ -88,6 +88,13 @@ pm2 log
 그래야 submit 버튼 누를 때 내용들을 ?title=eee&text=fff 요렇게 쿼리 문으로 묶어서 보여줌.
 주소에 쿼리 문 안보이게 하려면 method="post" 로 설정
 
+[App - 파일생성과 리다이렉션]
+writefile
+https://nodejs.org/api/fs.html#fs_fs_writefile_file_data_options_callback
+
+redirection
+HTTP header : 302 가 일시적 redirect, 301은 계속 redirect
+https://stackoverflow.com/questions/11355366/how-to-redirect-users-browser-url-to-a-different-page-in-nodejs
 ```
 
 
