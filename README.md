@@ -100,6 +100,13 @@ https://stackoverflow.com/questions/11355366/how-to-redirect-users-browser-url-t
 update 버튼 만들자.
 이 버튼은 각 data폴더에 있는 페이지로 접속할 때만 보여지게 하고 싶음.
 
+[App - 글수정 - 수정할 정보 전송]
+update 버튼을 눌렀을 때 보여질 화면 만들자
+- form html 만들기
+- 이미 저장되어있는 파일을 읽어오는 기능
+- 제목이 바뀔 수 있으니 서버에 수정하기 전의 제목을 전달하려면? <input type="hidden" name="id" value="${title}">
+
+
 ```
 
 
