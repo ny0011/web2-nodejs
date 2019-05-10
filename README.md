@@ -95,6 +95,11 @@ https://nodejs.org/api/fs.html#fs_fs_writefile_file_data_options_callback
 redirection
 HTTP header : 302 가 일시적 redirect, 301은 계속 redirect
 https://stackoverflow.com/questions/11355366/how-to-redirect-users-browser-url-to-a-different-page-in-nodejs
+
+[App - 글수정 - 수정 링크 생성]
+update 버튼 만들자.
+이 버튼은 각 data폴더에 있는 페이지로 접속할 때만 보여지게 하고 싶음.
+
 ```
 
 
