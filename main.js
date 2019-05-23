@@ -166,6 +166,28 @@ var app = http.createServer(function(request, response) {
             })
         });
     }
+    else if (pathname === '/delete_process'){
+        var body = '';
+
+        // 웹 페이지에 접속할 때마다 node.js가 항상 createServer(function(request, response)를 실행하게 됨.
+        // request에 사용자가 서버로 보낸 내용이 있음
+        // post로 보낸 데이터가 너무 많으면 프로그램이 꺼질 수 잇음
+        // 그래서 callback이 될 때마다 데이터를 추가
+        request.on('data', function(data){
+            body = body + data;
+        });
+
+        // 데이터 받는게 끝나면 아래 구문을 실행시킴
+        // 지금까지 받은 post 정보를 저장
+        request.on('end', function(){
+            var post = qs.parse(body);
+            var id = post.id;
+            fs.unlink(`data/${id}`, function(error){
+                response.writeHead(302, {Location: `/`});
+                response.end();
+            })
+        }));
+    }
     else {
         response.writeHead(404);
         response.end('Not Found');
